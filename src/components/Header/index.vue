@@ -18,7 +18,7 @@ const authStore = useAuthStore();
     <div class="w-full container mx-auto flex items-center">
       <div class="flex-1">
         <RouterLink :to="{ name: 'groups' }">
-          <h1 class="text-3xl logo">Favorite Site</h1>
+          <h1 class="text-3xl logo">Evollt schedule</h1>
         </RouterLink>
       </div>
 
