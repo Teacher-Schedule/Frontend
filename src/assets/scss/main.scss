@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "_variables.scss";
+
+body {
+  background-color: #1b1b1b;
+  color: white;
+  font-family: $baseFont;
+}
+
+.v-overlay.v-overlay--active.v-dialog {
+  backdrop-filter: blur(10px);
+}
+
+.v-overlay__scrim {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.markdown-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.card-modal {
+  padding: 50px !important;
+}
