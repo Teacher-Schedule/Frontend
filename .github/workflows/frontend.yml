@@ -1,9 +1,9 @@
 name: Evollt VPN frontend
 
 on:
-  pull_request:
-    branches:
-      - master
+  # pull_request:
+  #   branches:
+  #     - master
   push:
     branches:
       - master
@@ -63,7 +63,7 @@ jobs:
 
 
           # Загрузка последней версии образа
-          docker pull ${{ secrets.DOCKERHUB_USERNAME }}/teacher_schedule:latest
+          docker pull ${{ secrets.DOCKERHUB_USERNAME }}/teacher-schedule-frontend:latest
 
           # Переход в директорию проекта
           cd /var/www/frontend
