@@ -72,5 +72,5 @@ jobs:
           docker compose down
 
           # Запуск новых контейнеров
-          docker compose up -d --build
+          docker compose --profile prod up -d --build
           EOF
