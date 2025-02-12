@@ -1,9 +1,6 @@
-name: Evollt VPN frontend
+name: Teacher Schedule frontend
 
 on:
-  # pull_request:
-  #   branches:
-  #     - master
   push:
     branches:
       - master
